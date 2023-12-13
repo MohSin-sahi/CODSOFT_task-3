@@ -1,11 +1,12 @@
 // COLOR VARIABLES
 
 $color-text: #333;
-$color-text-1: #2f9fff;
 $color-white: #fff;
 $color-black: #000;
-$background-color: #e0e3eb;
-$background-color-1: #eee;
+$background-color: #00fff2;
+$background-color-1: #ff5945;
+$background-color-2: #a7a7f0;
+$background-color-3: #ff5f5f;
 
 // FONT VARIABLES
 
@@ -27,7 +28,4 @@ body {
   font-family: $font-primary;
   font-weight: 400;
   line-height: 1.6;
-  height: 100vh;
-  background-color: $background-color;
-  position: relative;
 }
