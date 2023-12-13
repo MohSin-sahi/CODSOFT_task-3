@@ -1,7 +1,7 @@
 {
-  "name": "Calculator",
+  "name": "To-Do",
   "version": "1.0.0",
-  "description": "Calculator",
+  "description": "To-Do App",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",

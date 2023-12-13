@@ -10,37 +10,38 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Calculator</title>
+    <title>To-Do App</title>
   </head>
   <body>
     <div class="container">
-      <input type="text" class="display" />
-
-      <button class="operator btn" onclick="clr()">C</button>
-      <button class="operator btn" onclick="del()">Del</button>
-      <button class="operator btn" onclick="display('%')">%</button>
-      <button class="operator btn" onclick="display('/')">/</button>
-
-      <button class="btn" onclick="display('7')">7</button>
-      <button class="btn" onclick="display('8')">8</button>
-      <button class="btn" onclick="display('9')">9</button>
-      <button class="operator btn" onclick="display('*')">*</button>
-
-      <button class="btn" onclick="display('4')">4</button>
-      <button class="btn" onclick="display('5')">5</button>
-      <button class="btn" onclick="display('6')">6</button>
-      <button class="operator btn" onclick="display('-')">-</button>
-
-      <button class="btn" onclick="display('1')">1</button>
-      <button class="btn" onclick="display('2')">2</button>
-      <button class="btn" onclick="display('3')">3</button>
-      <button class="operator btn" onclick="display('+')">+</button>
-
-      <button class="btn" onclick="display('0')">0</button>
-      <button class="btn" onclick="display('00')">00</button>
-      <button class="btn" onclick="display('.')">.</button>
-      <button class="operator btn" onclick="calculate()">=</button>
+      <h1 class="heading--1">To-Do List</h1>
+      <form action="#" class="form">
+        <input type="text" class="input" placeholder="Add your tasks" />
+        <button class="button">Add</button>
+      </form>
+      <table class="table">
+        <thead class="head">
+          <tr>
+            <th>Sr.No</th>
+            <th class="tasks">Tasks</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <tr>
+            <th>1</th>
+            <td class="tasks">Exercise</td>
+            <td class="icons">
+              <i class="fa fa-edit edit"></i><i class="fa fa-trash del"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="script.js"></script>
